@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,800|Mulish:400");
+
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.login {
+    /*align-items: left;
+    background-color: var(--white-color2);
+    display: flex;
+    height: 768px;*/
+    width: 1366px; 
+    align-items: center;/* Center the login form vertically */
+    background-color: var(--white-color2);
+    display: flex;
+    height: 100vh; /* Take up the full viewport height */
+    width: 100%; /* Take up the full viewport width */
+    overflow: hidden; /* Hide any overflowing content */
+}
+
+.overlap-group {
+    /*align-items: left;
+    display: flex;
+    /*flex-direction: column;
+    gap: 121px;*/
+    min-height: 768px;
+    padding: 39px 48px;
+    width: 1366; 
+    display: flex;
+    flex-direction: row; /* Change the direction to horizontal */
+    justify-content: space-between; /* Move the image to the right */
+    align-items: center; /* Center vertically */
+    padding: 0 48px; /* Remove horizontal padding */
+}
+
+.right img {
+    width: 840px;
+    height: 100%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.modal-login-as-partner {
+    /*align-items: center;
+    border-radius: 6px;*/
+    display: inline-flex;
+    flex-direction: column;
+    gap: 24px;
+    position: relative; 
+    max-width: 60%; /* Adjust this value to control the size of the image */
+    max-height: 100%; /* Keep the image aspect ratio */
+    border-top-right-radius: 0; /* Remove border radius on top right */
+    border-bottom-right-radius: 0; /* Remove border radius on bottom right */
+}
+
+.title {
+    height: 28px;
+    position: relative;
+    width: 320px;
+}
+
+.valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-1 {
+    color: var(--chromatext-1);
+    font-family: var(--font-family-nunito_sans);
+    font-size: var(--font-size-xl);
+    font-weight: 800;
+    height: 28px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: -1px;
+    white-space: nowrap;
+    width: 84px;
+}
+
+.input-field-1 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+}
+
+.inputwordsdefault {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 4px;
+    position: relative;
+    width: 320px;
+}
+
+.input-field {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: #fff;
+    border: 1px solid;
+    border-color: lightgray;
+    border-radius: 4px;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    padding: 8px 12px;
+    position: relative;
+    width: 100%;
+}
+
+.input-text {
+    flex: 1;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: -1px;
+    position: relative;
+    color: lightgray;
+}
+
+.icon-eye-slash-fill {
+    height: 16px;
+    position: relative;
+    width: 16px;
+    color: lightgray;
+}
+
+.text {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 12px;
+    position: relative;
+    width: 100%;
+}
+
+.label {
+    line-height: 20px;
+    width: fit-content;
+}
+
+.login .label-2 {
+    letter-spacing: 0;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+}
+
+.label-1 {
+    color: var(--primarypinang--primary);
+    flex: 1;
+    font-family: var(--font-family-mulish);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    height: 20px;
+    line-height: 22px;
+    text-align: right;
+    text-decoration: underline;
+    color: blue;
+}
+
+.masukkan-email-yang-sudah-didaftar {
+    flex: 1;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: -1px;
+    position: relative;
+    color: lightgray;
+}
+
+.cta {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+}
+
+.buttonprimary-disabled {
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 6px;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    justify-content: center;
+    padding: 8px 16px;
+    position: relative;
+    width: 320px;
+}
+.valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: enter;
+}
+
+.log-in {
+    color: #fff;
+    font-family: var(--font-family-nunito_sans);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+img.logo-invest-x-1 {
+    height: 50px;
+    width: 111px;
+}
